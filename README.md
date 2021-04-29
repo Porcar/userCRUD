@@ -20,8 +20,9 @@
 - $cp .env.example .env
 - Edit .env file according to your database: DB_DATABASE=usercrud
 - create a DB named: "usercrud"
-- php artisan migrate
-- //If you want to create dummy users do the following:
-- php artisan tinker
-- $users = factory(App\User::class, 20)->create();
+- $php artisan migrate
+- If you want to create dummy users do the following:
+- $php artisan tinker
+-- $users = factory(App\User::class, 20)->create();
+- $exit
 
