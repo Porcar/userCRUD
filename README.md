@@ -23,6 +23,6 @@
 - $php artisan migrate
 - If you want to create dummy users do the following:
 - $php artisan tinker
--- $users = factory(App\User::class, 20)->create();
-- $exit
+    - $users = factory(App\User::class, 20)->create();
+    - $exit
 
